@@ -1,0 +1,64 @@
+.option{
+	width: 95%;
+}
+.color > a{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+}
+.white{
+    background-color: #ffffff;
+}
+.black{
+    background-color: #000000;
+}
+.gray{
+    background-color: #808080;
+}
+.silver{
+    background-color: #c0c0c0;
+}
+.red{
+    background-color: #ff0000;
+}
+.pink{
+    background-color: #ffb6c1;
+}
+.orange{
+    background-color: #ffa500;
+}
+.dalmond{
+    background-color: #ffebcd;
+}
+.yellow{
+    background-color: #ffff00;
+}
+.greenyellow{
+    background-color: #adff2f;
+}
+.green{
+    background-color: #008000;
+}
+.blue{
+    background-color: #0000ff;
+}
+.aqua{
+    background-color: #00ffff;
+}
+.maroon{
+    background-color: #800000;
+}
+.purple{
+    background-color: #800080;
+}
+
+div #img-box{
+    border:3px solid #000;
+    width:500px;
+}
+  
+div #btn-box{
+      position: fixed;
+      bottom :0px;
+}

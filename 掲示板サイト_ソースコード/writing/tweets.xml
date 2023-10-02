@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tweets>
+    <entry id="1">
+        <date>2020-07-10 13:10:20</date>
+        <text>ここにツイート文</text>
+    </entry>
+    <entry id="2">
+        <date>2020-07-10 13:12:20</date>
+        <text>ここにツイート文その2</text>
+    </entry>
+    <entry id="3">
+        <date>2020-07-10 13:13:20</date>
+        <text>ここにツイート文その3</text>
+    </entry>
+<entry id="4" share="open"><date>2022-07-11 00:08:59</date><retweet>@manda/mytweets:4</retweet><text>これはテストです。</text><img>./img/4_cat1.jpg</img></entry><entry id="5" share="close"><date>2022-07-11 00:09:22</date><retweet/><text>これは公開範囲テストです。</text></entry><entry id="6" share="close"><date>2022-07-11 00:13:56</date><retweet/><text>これは新たなエラーメッセージのテストです。</text></entry><entry id="7" share="close"><date>2022-07-13 11:37:02</date><retweet>@manda/mytweets:5</retweet><text>これはメッセージ修正についてのテストです。</text></entry></tweets>

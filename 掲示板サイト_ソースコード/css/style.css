@@ -1,0 +1,115 @@
+/* 全体的な調整 */
+body {
+	margin: 0;
+    padding: 1.5em;
+	color: #222;
+	background: #ddf6f9;
+}
+/* 題名部分 */
+h1 {
+    margin: 0;
+    padding: 0;
+    color: #222;
+    text-align: center;
+}
+/* 投稿完了・エラーメッセージ */
+.tweet_clear {
+    display: block;
+    color: #48b400;
+    border: 1px solid #4dc100;
+}
+.tweet_clear {
+    line-height: 1.6em;
+    text-align: center;
+    margin: auto;
+    width: 95%;
+    margin-bottom: 1em;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    z-index: 9999;
+}
+.log_button {
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: #37a1e5;
+    color: #ffffff;
+    line-height: 1em;
+    transition: .3s;
+    border: 2px solid #37a1e5;
+    text-decoration: none;
+}
+.log_button:hover, .log_button:focus {
+    color: #37a1e5;
+    background: #ffffff;
+}
+/* 入力フォーム */
+label {
+    display: block;
+    margin: 1.5em 0.5em 0.5em auto;
+}
+.side {
+    display: inline-block;
+}
+textarea {
+    display: block;
+    width: 95%;
+    margin: auto;
+	padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background: #fff;
+    height: 70px;
+    margin-bottom: 0.5em;
+}
+#retweet {
+    display: block;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 0.5em;
+}
+#openarea {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+/* 入力ボタン */
+
+input[type="submit"] {
+    margin-top: 2.5em;
+	appearance: none;
+    -webkit-appearance: none;
+    padding: 10px 20px;
+    color: #fff;
+    line-height: 1.0em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #37a1e5;
+}
+input[type=submit]:hover, input[type=submit]:focus {
+    background-color: #197ab7;
+}
+.cleartext {
+    display: inline-block;
+}
+input[type="file"] {
+    margin-bottom: 0.5em;
+}
+/* ツイート表示 */
+article {
+	margin-top: 20px;
+	padding: 20px;
+	border-radius: 10px;
+	background: #fff;
+    color: #555;
+    line-height: 1.6em;
+}
+/* 画像 */
+img {
+    width: 80%; 
+    display:block; 
+    margin:auto;
+}

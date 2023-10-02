@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>松原市の神社</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </head>
+  <body id="page-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#page-top">松原市の神社紹介サイト</a>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="#service">神社一覧</a></li>
+              <li><a href="#price">住所</a></li>
+              <li><a href="#contact">問い合わせ</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>こんにちは</h1>
+        <p>大阪府松原市の神社を紹介するサイトです。</p>
+        <p><a class="btn btn-primary btn-lg" href="#service" role="button">もっと詳しく &raquo;</a></p>
+      </div>
+    </div>
+    <section id="service">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="section-heading">神社一覧</h2>
+          </div>
+          <div class="col-md-4">
+            <h3>柴籬神社(しばがきじんじゃ)</h3>
+            <p>日本でも珍しい歯に由縁のある神社です。夏祭りや秋祭りでは、だんじりやお神楽も楽しむことが出来ます（※現在は新型コロナウイルスの影響により中止の場合があるようです）。</p>
+            <p><a class="btn btn-default" href="#" role="button">詳細 &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h3>布忍神社(ぬのせじんじゃ)</h3>
+            <p>イチハラヒロコとコラボした恋みくじが有名な神社です。大阪府指定有形文化財に指定されています。</p>
+            <p><a class="btn btn-default" href="#" role="button">詳細 &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h3>屯倉神社(みやけじんじゃ)</h3>
+            <p>枝垂れ梅で知られる神社です。菅原道真を祭神として創祀されたと言われており、道真が参拝した際に腰を掛けたといわれる「神形石」があります。3月初旬の梅まつりでは、琴演奏や和菓子と抹茶などを楽しむことも出来ます（※新型コロナウイルスの影響のため中止の場合があります）。</p>
+            <p><a class="btn btn-default" href="#" role="button">詳細 &raquo;</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="price">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h2 class="section-heading">住所</h2>
+            </div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+              <table class="table table-striped">
+                <thead>
+                  <tr><th>No.</th><th>地名</th><th class="text-right">住所</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>1</td><td>柴籬神社</td><td class="text-right">〒580-0016 大阪府松原市上田7丁目12番地22号</td></tr>
+                  <tr><td>2</td><td>布忍神社</td><td class="text-right">〒580-0025 大阪府松原市北新町2丁目4番地11号</td></tr>
+                  <tr><td>3</td><td>屯倉神社</td><td class="text-right">〒580-0046 大阪府松原市三宅中4丁目1番地8号</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-sm-2"></div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h2 class="section-heading">問い合わせ</h2>
+            </div>
+            <form>
+              <div class="col-sm-4">
+                <div class="form-group">
+		  <label for="name">名前</label>
+                  <input type="text" class="form-control" placeholder="あなたの名前" id="name" />
+		  <label for="email">メールアドレス</label>
+                  <input type="email" class="form-control" placeholder="あなたのメールアドレス" id="email" />
+                 </div>
+              </div>
+              <div class="col-sm-8">
+                 <div class="form-group">
+		   <label for="message">問い合わせ事項</label>
+                   <textarea class="form-control" rows="5" placeholder="問い合わせ事項を記入してください" id="message"></textarea>
+                 </div>
+              </div>
+              <div class="col-12 text-center">
+                <button type="submit" class="btn btn-success btn-lg">送信</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    <hr />
+    <footer>
+      <p>&copy; 2022 ウェブデザイン演習A　60266047</p>
+    </footer>
+  </body>
+</html>

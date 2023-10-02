@@ -1,0 +1,141 @@
+/* 全体的な調整 */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+#body {
+    position:absolute; 
+    top:0; 
+    left:0; 
+    width: 100%;
+    height: 100%;
+}
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #04BBD3;
+    z-index: -100;
+    color: #FFF;
+}
+/* 題名部分 */
+h1 {
+    margin: 0;
+    padding: 0;
+    color: #222;
+    text-align: center;
+    text-shadow:1px 1px 0 #FFF, -1px -1px 0 #FFF,
+                -1px 1px 0 #FFF, 1px -1px 0 #FFF,
+                0px 1px 0 #FFF,  0 -1px 0 #FFF,
+                -1px 0 0 #FFF, 1px 0 0 #FFF;
+}
+/* 投稿完了・エラーメッセージ */
+.tweet_clear {
+    display: block;
+    color: #48b400;
+    border: 1px solid #4dc100;
+}
+.tweet_clear {
+    line-height: 1.6em;
+    text-align: center;
+    margin: auto;
+    width: 95%;
+    margin-bottom: 1em;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    z-index: 9999;
+}
+.log_button {
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: #000000;
+    color: #ffffff;
+    line-height: 1em;
+    transition: .3s;
+    border: 2px solid #000000;
+    text-decoration: none;
+}
+.log_button:hover, .log_button:focus {
+    color: #000000;
+    background: #ffffff;
+}
+/* 入力フォーム */
+label {
+    display: block;
+    margin: 1.5em 0.5em 0.5em auto;
+    font-weight: bold;
+    text-shadow:1px 1px 0 #FFF, -1px -1px 0 #FFF,
+                -1px 1px 0 #FFF, 1px -1px 0 #FFF,
+                0px 1px 0 #FFF,  0 -1px 0 #FFF,
+                -1px 0 0 #FFF, 1px 0 0 #FFF;
+}
+.side {
+    display: inline-block;
+}
+textarea {
+    display: block;
+    width: 95%;
+    margin: auto;
+	padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background: #fff;
+    height: 70px;
+    margin-bottom: 0.5em;
+}
+#retweet {
+    display: block;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 0.5em;
+}
+#openarea {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+/* 入力ボタン */
+
+input[type="submit"] {
+    margin-top: 2.5em;
+	appearance: none;
+    -webkit-appearance: none;
+    padding: 10px 20px;
+    color: #fff;
+    line-height: 1.0em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #000000;
+}
+input[type=submit]:hover, input[type=submit]:focus {
+    background-color: #2e2e2e;
+}
+.cleartext {
+    display: inline-block;
+}
+input[type="file"] {
+    margin-bottom: 0.5em;
+}
+/* ツイート表示 */
+article {
+	margin-top: 20px;
+	padding: 20px;
+	border-radius: 10px;
+	background: #fff;
+    color: #555;
+    line-height: 1.6em;
+}
+/* 画像 */
+img {
+    width: 80%; 
+    display:block; 
+    margin:auto;
+}

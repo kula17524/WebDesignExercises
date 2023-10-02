@@ -1,0 +1,7 @@
+<Files login.php>
+    AuthUserFile /home/s266047/.htpasswd
+    AuthGroupFile /dev/null
+    AuthName "Tweet Management Area"
+    AuthType Basic
+    require valid-user
+</Files>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tweets>
+    <entry id="1">
+        <date>2020-07-10 13:10:20</date>
+        <text>ここにツイート文</text>
+    </entry>
+    <entry id="2">
+        <date>2020-07-10 13:12:20</date>
+        <text>ここにツイート文その2</text>
+    </entry>
+    <entry id="3">
+        <date>2020-07-10 13:13:20</date>
+        <text>ここにツイート文その3</text>
+    </entry>
+</tweets>
