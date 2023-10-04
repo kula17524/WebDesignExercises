@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/filter.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/topbutton.js"></script>
+        
+        <title>プログラミング学習まとめサイト</title>
+    </head>
+    
+    <body>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+            <div class="container-fluid">
+                <a class="navbar-brand" id="top"><h1>プログラミング学習まとめサイト</h1></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" tabindex="0" accesskey="M">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" tabindex="0" accesskey="1">
+                                学習サイト一覧(<u>1</u>)
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#progate">Progate</a></li>
+                                <li><a class="dropdown-item" href="#dotinstall">ドットインストール</a></li>
+                                <li><a class="dropdown-item" href="#paiza">paiza</a></li>
+                                <li><a class="dropdown-item" href="#codeprep">CODEPREP</a></li>
+                                <li><a class="dropdown-item" href="#schoo">Schoo</a></li>
+                                <li><a class="dropdown-item" href="#codecademy">Codecademy</a></li>
+                                <li><a class="dropdown-item" href="#scratch">Scratch</a></li>
+                                <li><a class="dropdown-item" href="#codecombat">CODE COMBAT</a></li>
+                                <li><a class="dropdown-item" href="#codemonkey">CodeMonkey</a></li>
+                                <li><a class="dropdown-item" href="#syllabus">シラバス</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" tabindex="0" accesskey="2">
+                                オンライン実行環境一覧(<u>2</u>)
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#paizaio">paiza.IO</a></li>
+                                <li><a class="dropdown-item" href="#google">Google Colaboratory</a></li>
+                                <li><a class="dropdown-item" href="#codepad">CodePad</a></li>
+                                <li><a class="dropdown-item" href="#ideone">Ideone</a></li>
+                                <li><a class="dropdown-item" href="#wandbox">Wandbox</a></li>
+                                <li><a class="dropdown-item" href="#replit">Repl.it</a></li>
+                                <li><a class="dropdown-item" href="#codingground">codingground</a></li>
+                                <li><a class="dropdown-item" href="#jsfiddle">JSFiddle</a></li>
+                                <li><a class="dropdown-item" href="#codepen">CodePen</a></li>
+                                <li><a class="dropdown-item" href="#codechef">CODECHEF</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#quiz" tabindex="0" accesskey="3">コーディングクイズ(<u>3</u>)</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Learning Sites -->
+        <div class="contents1">
+            <h2 id="website">学習サイト一覧</h2>
+            <!-- filter -->
+            <div class="gallery2">
+                <div class="container2">
+                    <input tabindex="0" accesskey="S" type="radio" id="All2" name="categories" value="All2">
+                    <input tabindex="0" accesskey="D" type="radio" id="java2" name="categories" value="java2">
+                    <input tabindex="0" accesskey="F" type="radio" id="js2" name="categories" value="js2">
+                    <input tabindex="0" accesskey="G" type="radio" id="py2" name="categories" value="py2">
+                    <input tabindex="0" accesskey="H" type="radio" id="c2" name="categories" value="c2">
+                    <input tabindex="0" accesskey="J" type="radio" id="cpl2" name="categories" value="cpl2">
+                    <input tabindex="0" accesskey="K" type="radio" id="php2" name="categories" value="php2">
+                    <input tabindex="0" accesskey="L" type="radio" id="html2" name="categories" value="html2">
+                    <input tabindex="0" accesskey="Z" type="radio" id="css2" name="categories" value="css2">
+                    <ol class="filters2">
+                        <li>言語で絞り込む</li><br>
+                        <li><label tabindex="0" for="All2">All(<u>Q</u>)</label></li>
+                        <li><label tabindex="0" for="java2">Java(<u>W</u>)</label></li>
+                        <li><label tabindex="0" for="js2">JavaScript(<u>E</u>)</label></li>
+                        <li><label tabindex="0" for="py2">Python(<u>R</u>)</label></li>
+                        <li><label tabindex="0" for="c2">C(<u>T</u>)</label></li>
+                        <li><label tabindex="0" for="cpl2">C++(<u>Y</u>)</label></li>
+                        <li><label tabindex="0" for="php2">PHP(<u>U</u>)</label></li>
+                        <li><label tabindex="0" for="html2">HTML(<u>I</u>)</label></li>
+                        <li><label tabindex="0" for="css2">CSS(<u>O</u>)</label></li>
+                    </ol>
+                    <div class="row targets2">
+                        <div class="card target2" data-category="java2 js2 py2 php2 html2 css2"  style="width: 19.5rem;">
+                            <a id="progate"></a>
+                            <img src="imgs/progate.png" class="card-img-top" alt="Progateのスクリーンショット画像">
+                                <div class="card-body">
+                                    <p class="card-title">Progate</p>
+                                    <p class="card-text">環境構築をせずに多数の言語のプログラミングが学べる、初心者向けのプログラミング学習サービスです。</p>
+                                    <a href="https://prog-8.com/" class="btn btn-primary">Progateへ移動する</a>
+                                </div>
+                        </div>
+                        <div class="card target2" data-category="java2 js2 py2 c2 php2 html2 css2"  style="width: 19.5rem;">
+                            <a id="dotinstall"></a>
+                            <img src="imgs/dotinstall.png" class="card-img-top" alt="ドットインストールのスクリーンショット画像">
+                                <div class="card-body">
+                                    <p class="card-title">ドットインストール</p>
+                                    <p class="card-text">3分程度の動画を見ながら多数の言語を学べるプログラミング学習サービスです。環境構築が必要になります。</p>
+                                    <a href="https://dotinstall.com/" class="btn btn-primary">ドットインストールへ移動する</a>
+                                </div>
+                        </div>
+                        <div class="card target2" data-category="java2 js2 py2 c2 cpl2 php2 html2 css2"  style="width: 19.5rem;">
+                            <a id="paiza"></a>
+                            <img src="imgs/paiza.png" class="card-img-top" alt="paizaラーニングのスクリーンショット画像">
+                                <div class="card-body">
+                                    <p class="card-title">paiza</p>
+                                    <p class="card-text">動画を見ながらブラウザ上で練習ができる学習サービスです。言語が多く、就活などのサービスもあります。</p>
+                                    <a href="https://paiza.jp/works" class="btn btn-primary">paizaへ移動する</a>
+                                </div>
+                        </div>
+                        <div class="card target2" data-category="java2 js2 py2 php2 html2 css2"  style="width: 19.5rem;">
+                            <a id="codeprep"></a>
+                            <img src="imgs/codeprep.png" class="card-img-top" alt="CODEPREPのスクリーンショット画像">
+                                <div class="card-body">
+                                    <p class="card-title">CODEPREP</p>
+                                    <p class="card-text">1日10分で実際に手を動かして達成感が得られる、大半が穴埋め形式のプログラミング学習サービスです。</p>
+                                    <a href="https://codeprep.jp/" class="btn btn-primary">CODEPREPへ移動する</a>
+                                </div>
+                        </div>
+                        <div class="card target2" data-category="java2 js2 py2 c2 cpl2 php2 html2 css2"  style="width: 19.5rem;">
+                            <a id="schoo"></a>
+                            <img src="imgs/schoo.png" class="card-img-top" alt="Schooのスクリーンショット画像">
+                                <div class="card-body">
+                                    <p class="card-title">Schoo</p>
+                                    <p class="card-text">生放送の動画を見ながらプログラミングを含めた幅広い分野の知識を習得することが出来るオンラインサービスです。</p>
+                                    <a href="https://schoo.jp/" class="btn btn-primary">Schooへ移動する</a>
+                                </div>
+                        </div>
+                        <div class="card target2" data-category="java2 js2 py2 c2 cpl2 php2 html2 css2"  style="width: 19.5rem;">
+                            <a id="codecademy"></a>
+                            <img src="imgs/codecademy.png" class="card-img-top" alt="Codecademyのスクリーンショット画像">
+                                <div class="card-body">
+                                    <p class="card-title">Codecademy</p>
+                                    <p class="card-text">環境構築無しで多数の言語のプログラミングを学習できる、海外で人気の英語プログラミング学習サービスです。</p>
+                                    <a href="https://www.codecademy.com/" class="btn btn-primary">Codecademyへ移動する</a>
+                                </div>
+                        </div>
+                        <div class="card target2" data-category=""  style="width: 19.5rem;">
+                            <a id="scratch"></a>
+                            <img src="imgs/scratch.png" class="card-img-top" alt="Scratchのスクリーンショット画像">
+                                <div class="card-body">
+                                    <p class="card-title">Scratch</p>
+                                    <p class="card-text">ブロックを繋ぎ合わせてプログラムを作り実際に動かす、子供向けのプログラミングツールです。</p>
+                                    <a href="https://scratch.mit.edu/" class="btn btn-primary">Scratchへ移動する</a>
+                                </div>
+                        </div>
+                        <div class="card target2" data-category="js2 py2"  style="width: 19.5rem;">
+                            <a id="codecombat"></a>
+                            <img src="imgs/codecombat.png" class="card-img-top" alt="CODECOMBATのスクリーンショット画像">
+                                <div class="card-body">
+                                    <p class="card-title">CODE COMBAT</p>
+                                    <p class="card-text">RPG風のゲームを遊びながら主にPythonやJavaScriptを学べるプログラミング学習サービスです。</p>
+                                    <a href="https://codecombat.com/" class="btn btn-primary">CODECOMBATへ移動する</a>
+                                </div>
+                        </div>
+                        <div class="card target2" data-category=""  style="width: 19.5rem;">
+                            <a id="codemonkey"></a>
+                            <img src="imgs/codemonkey.png" class="card-img-top" alt="CodeMonkey">
+                                <div class="card-body">
+                                    <p class="card-title">CodeMonkey</p>
+                                    <p class="card-text">猿がバナナを取るゲームを遊びながらCoffeeScript(JavaScriptへの変換を前提とした言語)を学べるサービスです。</p>
+                                    <a href="https://codemonkey.jp/" class="btn btn-primary">CodeMonkeyへ移動する</a>
+                                </div>
+                        </div>
+                        <div class="card target2" data-category="html2 css2"  style="width: 19.5rem;">
+                            <a id="syllabus"></a>
+                            <img src="imgs/cyllubus.png" class="card-img-top" alt="シラバスのスクリーンショット画像">
+                                <div class="card-body">
+                                    <p class="card-title">シラバス</p>
+                                    <p class="card-text">開発の流れを追うようにWEB開発を学べるサービスです。現在はセキュリティ証明書の期限が切れているようです。</p>
+                                    <a href="https://cyllabus.jp/" class="btn btn-primary">シラバスへ移動する</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+
+        <!-- Online -->
+        <div class="contents2">
+            <h2 id="online">オンライン実行環境一覧</h2>
+            <!-- filter -->
+            <div class="gallery1">
+                <div class="container1">
+                    <input tabindex="0" accesskey="Q" type="radio" id="All1" name="categories" value="All1">
+                    <input tabindex="0" accesskey="W" type="radio" id="java1" name="categories" value="java1">
+                    <input tabindex="0" accesskey="E" type="radio" id="js1" name="categories" value="js1">
+                    <input tabindex="0" accesskey="R" type="radio" id="py1" name="categories" value="py1">
+                    <input tabindex="0" accesskey="T" type="radio" id="c1" name="categories" value="c1">
+                    <input tabindex="0" accesskey="Y" type="radio" id="cpl1" name="categories" value="cpl1">
+                    <input tabindex="0" accesskey="U" type="radio" id="php1" name="categories" value="php1">
+                    <input tabindex="0" accesskey="I" type="radio" id="html1" name="categories" value="html1">
+                    <input tabindex="0" accesskey="O" type="radio" id="css1" name="categories" value="css1">
+                    <ol class="filters1">
+                        <li>言語で絞り込む</li><br>
+                        <li><label tabindex="0" for="All1">All(<u>Q</u>)</label></li>
+                        <li><label tabindex="0" for="java1">Java(<u>W</u>)</label></li>
+                        <li><label tabindex="0" for="js1">JavaScript(<u>E</u>)</label></li>
+                        <li><label tabindex="0" for="py1">Python(<u>R</u>)</label></li>
+                        <li><label tabindex="0" for="c1">C(<u>T</u>)</label></li>
+                        <li><label tabindex="0" for="cpl1">C++(<u>Y</u>)</label></li>
+                        <li><label tabindex="0" for="php1">PHP(<u>U</u>)</label></li>
+                        <li><label tabindex="0" for="html1">HTML(<u>I</u>)</label></li>
+                        <li><label tabindex="0" for="css1">CSS(<u>O</u>)</label></li>
+                    </ol>
+                    <div class="row targets1">
+                        <div class="card target1" data-category="java1 js1 py1 c1 cpl1 php1" style="width: 19.5rem;">
+                            <a id="paizaio"></a>
+                            <img src="imgs/paizaio.png" class="card-img-top" alt="paiza.IOのスクリーンショット画像">
+                                <div class="card-body">
+                                <p class="card-title">paiza.IO</p>
+                                    <p class="card-text">C、C#、C++、PHP、Java、JavaScript、Python、Ruby、Go、R、Swiftなど多くの主要言語に対応しています。</p>
+                                    <a href="https://paiza.io/ja" class="btn btn-primary">paiza.IOへ移動する</a>
+                                </div>
+                        </div>
+                        <div class="card target1" data-category="py1" style="width: 19.5rem;">
+                            <a id="google"></a>
+                            <img src="imgs/googlecolab.png" class="card-img-top" alt="Google Colaboratoryのスクリーンショット画像">
+                                <div class="card-body">
+                                    <p class="card-title">Google Colaboratory</p>
+                                    <p class="card-text">基本的にPythonのみに対応していますが、設定などを行うことでRなどの言語も扱うことも出来ます。</p>
+                                    <a href="https://colab.research.google.com/?hl=ja#scrollTo=tQR_Wf2VuSnL" class="btn btn-primary">GoogleColaboratoryへ移動する</a>
+                                </div>
+                        </div>
+                        <div class="card target1" data-category="py1 c1 cpl1 php1" style="width: 19.5rem;">
+                            <a id="codepad"></a>
+                            <img src="imgs/codepad.png" class="card-img-top" alt="Codepadのスクリーンショット画像">
+                                <div class="card-body">
+                                    <p class="card-title">CodePad</p>
+                                    <p class="card-text">C、C++、PHP、Python、Ruby、D、Haskell、Perl、Scheme、Lua、Tclなど13言語に対応しています。</p>
+                                    <a href="http://codepad.org/" class="btn btn-primary">CodePadへ移動する</a>
+                                </div>
+                        </div>
+                        <div class="card target1" data-category="java1 js1 py1 c1 cpl1 php1" style="width: 19.5rem;">
+                            <a id="wandbox"></a>
+                            <img src="imgs/wandbox.png" class="card-img-top" alt="Wandboxのスクリーンショット画像">
+                                <div class="card-body">
+                                    <p class="card-title">Wandbox</p>
+                                    <p class="card-text">C、C#、C++、Java、JavaScript、PHP、Python、Ruby、R、Swift、SQLなど多くの主要言語に対応しています。</p>
+                                    <a href="https://wandbox.org/" class="btn btn-primary">Wandboxへ移動する</a>
+                                </div>
+                        </div>
+                        <div class="card target1" data-category="java1 js1 py1 c1 cpl1 php1" style="width: 19.5rem;">
+                            <a id="ideone"></a>
+                            <img src="imgs/ideone.png" class="card-img-top" alt="Ideoneのスクリーンショット画像">
+                                <div class="card-body">
+                                    <p class="card-title">Ideone</p>
+                                    <p class="card-text">C、C#、C++、PHP、Java、JavaScript、Python、Ruby、SQLite、Swiftなど多くの主要言語に対応しています。</p>
+                                    <a href="https://ideone.com/" class="btn btn-primary">Ideoneへ移動する</a>
+                                </div>
+                        </div>
+                        <div class="card target1" data-category="java1 js1 py1 c1 cpl1 php1 html1 css1" style="width: 19.5rem;">
+                            <a id="replit"></a>
+                            <img src="imgs/repl.png" class="card-img-top" alt="Repl.itのスクリーンショット画像">
+                                <div class="card-body">
+                                    <p class="card-title">Repl.it</p>
+                                    <p class="card-text">C、Python、Ruby、PHP、JavaScript、Node.js、GO、kotlin、Swiftなど多くの主要言語に対応しています。</p>
+                                    <a href="https://replit.com/" class="btn btn-primary">Repl.itへ移動する</a>
+                                </div>
+                        </div>
+                        <div class="card target1" data-category="java1 js1 py1 c1 cpl1 php1 html1 css1" style="width: 19.5rem;">
+                            <a id="codingground"></a>
+                            <img src="imgs/codingground.png" class="card-img-top" alt="codinggroundのスクリーンショット画像">
+                                <div class="card-body">
+                                    <p class="card-title">codingground</p>
+                                    <p class="card-text">C、C++、C#、D、Go、Haskell、Java、Lua、Objective-C、Perl、Rubyなど多くの主要言語に対応しています。</p>
+                                    <a href="https://www.tutorialspoint.com/codingground.htm" class="btn btn-primary">codinggroundへ移動する</a>
+                                </div>
+                        </div>
+                        <div class="card target1" data-category="js1 html1 css1" style="width: 19.5rem;">
+                            <a id="jsfiddle"></a>
+                            <img src="imgs/jsfiddle.png" class="card-img-top" alt="JSFiddleのスクリーンショット画像">
+                                <div class="card-body">
+                                    <p class="card-title">JSFiddle</p>
+                                    <p class="card-text">HTML、CSS、JavaScriptに対応しています。</p>
+                                    <a href="https://jsfiddle.net/" class="btn btn-primary">JSFiddleへ移動する</a>
+                                </div>
+                        </div>
+                        <div class="card target1" data-category="js1 html1 css1" style="width: 19.5rem;">
+                            <a id="codepen"></a>
+                            <img src="imgs/codepen.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-title">CodePen</p>
+                                    <p class="card-text">HTML、CSS、JavaScriptに対応しています。</p>
+                                    <a href="https://codepen.io/" class="btn btn-primary">CodePenへ移動する</a>
+                                </div>
+                        </div>
+                        <div class="card target1" data-category="java1 js1 py1 c1 cpl1 php1 html1 css1" style="width: 19.5rem;">
+                            <a id="codechef"></a>
+                            <img src="imgs/codechef.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-title">CODECHEF</p>
+                                    <p class="card-text">C、C++、C#、D、Go、Haskell、Java、Lua、JavaScript、Perl、Rubyなど多くの主要言語に対応しています。</p>
+                                    <a href="https://www.codechef.com/" class="btn btn-primary">CODECHEFへ移動する</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+        <!-- Quiz Part -->
+        <div class="contents3">
+            <h2 id="quiz">コーディングクイズ(計3問)</h2>
+            <div class="container">
+                <div id="js-question" class="mt-3 alert alert-primary" role="alert">
+                A simple primary alert—check it out!
+                </div>
+              
+                <input type="text" id="answer-input" value="回答を入力する" placeholder="回答を入力する">
+                <button type="button" class="btn btn-primary" id="submit-button" tabindex="0" accesskey="A">回答する(<u>A</u>)</button>
+              
+                <div id="all-answers-container" style="display: none">
+                    <h2>答え合わせ</h2>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>問題</th>
+                                <th>あなたの答え</th>
+                                <th>正答</th>
+                                <th>正誤</th>
+                            </tr>
+                        </thead>
+                        <tbody id="all-answers-tbody"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- top button -->
+        <div id="page_top">
+            <a href="#top" accesskey="P"></a>
+        </div>
+        <script type="text/javascript" src="js/quiz.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    </body>
+</html>
